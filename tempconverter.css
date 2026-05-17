@@ -1,0 +1,50 @@
+h1{
+    font-size: 2.3em;
+    color: rgb(113, 140, 163);
+    padding: 15px;
+}
+body{
+    background-color: rgba(247, 232, 213, 0.945);
+    font-family: sans-serif;
+    text-align: center;
+}
+form{
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    margin: auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.226);
+    border-radius: 5px;
+}
+#textbox{
+    width: 60%;
+    font-size: 1.5em;
+    text-align: center;
+    border: solid rgba(0, 0, 0, 0.358);
+    border-radius: 5px;
+    padding: 5px;
+}
+#toFahrenheit{
+    margin-top: 20px;
+}
+#toCelsius{
+    margin-bottom: 25px;
+}
+label{
+    font-size: large;
+    color: solid black;
+    cursor: pointer;
+}
+button{
+    padding: 7px 7px;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(230, 84, 84);
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(201, 51, 51);
+}
+#result{
+    font-size: 28px;
+}
